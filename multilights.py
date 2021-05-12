@@ -38,7 +38,7 @@ def airlocks_safe(outer, inner):
 try:
     OUTER_OPEN = False
     INNER_OPEN = False
-    airlock(OUTER_AIRLOCK, False)
+
     while True:
         n = input("What would you like to do?\n1)Open Outer Airlock\n2)Close Outer Airlock\n3)Open Inner Airlock\n4)Close Inner Airlock\n5)Quit\n\n")
         if n == 5 or n == "quit":
